@@ -1,0 +1,15 @@
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\bin\Debug\GameLaunch.exe.config
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\bin\Debug\GameLaunch.exe
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\bin\Debug\GameLaunch.pdb
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\bin\Debug\GameLaunch.xml
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLauncher.vbprojAssemblyReference.cache
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLaunch.Form1.resources
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLaunch.Resources.resources
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLauncher.vbproj.GenerateResource.cache
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLaunch.exe
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLaunch.xml
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLaunch.pdb
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\bin\Debug\GameLaunch.exe.manifest
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\bin\Debug\GameLaunch.application
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLaunch.exe.manifest
+C:\Users\28127\source\repos\GameLaunch\GameLaunch\obj\Debug\GameLaunch.application
