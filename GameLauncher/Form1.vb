@@ -14,7 +14,7 @@
         '获取启动目录和游戏数据目录
         LauncherPath = Application.StartupPath
         GamePath = LauncherPath + "\GameData"
-        PlayerPath = LauncherPath + "\FlashPlayer\FlashPlayerDebugger.exe"
+        PlayerPath = LauncherPath + "\FlashPlayer\FlashPlayer.exe"
 
         CheckFile()
     End Sub
@@ -27,7 +27,7 @@
 
         Dim tempPath As String
         For I As Integer = 0 To GameList.Length - 1
-            tempPath = GamePath + "\bvn_" + GameList(I) + "\" + getLauncherName(I)
+            tempPath = GamePath + "\bvn_" + GameList(I) + "\" + GetLauncherName(I)
 
             If Dir(tempPath) = "" Then
                 MsgBox(tempPath + "文件不存在！")
@@ -40,9 +40,9 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim CommandLine As String
         If ComboBox1.SelectedIndex < GetArrayPosition("3.0", GameList) Then
-            CommandLine = PlayerPath + " " + GamePath + "\bvn_" + ComboBox1.SelectedItem + "\" + getLauncherName(ComboBox1.SelectedIndex)
+            CommandLine = PlayerPath + " " + GamePath + "\bvn_" + ComboBox1.SelectedItem + "\" + GetLauncherName(ComboBox1.SelectedIndex)
         Else
-            CommandLine = GamePath + "\bvn_" + ComboBox1.SelectedItem + "\" + getLauncherName(ComboBox1.SelectedIndex)
+            CommandLine = GamePath + "\bvn_" + ComboBox1.SelectedItem + "\" + GetLauncherName(ComboBox1.SelectedIndex)
         End If
 
         'MsgBox(CommandLine)
@@ -65,7 +65,7 @@
         Return -1
     End Function
 
-    Public Function getLauncherName(item As Integer) As String
+    Public Function GetLauncherName(item As Integer) As String
         If item < GetArrayPosition("3.0", GameList) Then
             Return "bleachvsnaruto.swf"
         ElseIf item < GetArrayPosition("3.02", GameList) Then

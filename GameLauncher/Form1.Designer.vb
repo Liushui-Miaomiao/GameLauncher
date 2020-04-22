@@ -22,23 +22,22 @@ Partial Class Form1
     '不要使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim Label1 As System.Windows.Forms.Label
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
-        Label1.AutoSize = True
-        Label1.Location = New System.Drawing.Point(64, 22)
-        Label1.Name = "Label1"
-        Label1.Size = New System.Drawing.Size(269, 12)
-        Label1.TabIndex = 0
-        Label1.Text = "欢迎使用【Bleach vs. Naruto】历史版本启动器~"
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(64, 22)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(269, 12)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "欢迎使用【Bleach vs. Naruto】历史版本启动器~"
         '
         'Label2
         '
@@ -85,7 +84,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Label1)
+        Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Game Launcher"
@@ -98,4 +97,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Label1 As Label
 End Class

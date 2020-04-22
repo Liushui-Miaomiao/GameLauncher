@@ -4,14 +4,14 @@
   <description asmv2:publisher="GameLauncher" asmv2:product="GameLauncher" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="GameLauncher.exe.manifest" size="3860">
+    <dependentAssembly dependencyType="install" codebase="GameLauncher.exe.manifest" size="4467">
       <assemblyIdentity name="GameLauncher.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>k+QrwP4h/58FziVirb9Er71LDjE=</dsig:DigestValue>
+        <dsig:DigestValue>yw4vC/NpyFzM+7cdHOv09sv51ko=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

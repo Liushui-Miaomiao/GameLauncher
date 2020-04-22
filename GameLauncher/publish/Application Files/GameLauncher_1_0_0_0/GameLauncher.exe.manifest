@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GameLauncher.exe" version="1.0.0.0" publicKeyToken="7d533fd478b4aa72" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GameLauncher" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="GameLauncher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+             如果想要更改 Windows 用户帐户控制级别，请使用
+             以下节点之一替换 requestedExecutionLevel 节点。n
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 元素将禁用文件和注册表虚拟化。
+            如果你的应用程序需要此虚拟化来实现向后兼容性，则删除此
+            元素。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameLauncher.exe" size="29744">
+      <assemblyIdentity name="GameLauncher" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SBTpEhn2Rx2lw+bQRwsObykp7E8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pDXqbDIfjca5Veoumk0ocTUjJW8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 设计此应用程序与其一起工作且已针对此应用程序进行测试的
+           Windows 版本的列表。取消评论适当的元素，
+           Windows 将自动选择最兼容的环境。 -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=5dplay, OU=&quot;&quot;, O=&quot;&quot;, C=CN" issuerKeyHash="88466093d039964cec674a64b00fcef26401a537" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>V5Mvn/9VNFaG26Qo5Fa9fupvOI0=</DigestValue></Reference></SignedInfo><SignatureValue>CR8hF3fbIbZwflA9GH2qb4uTKVE5phATZf64l0EsURTyEmE32PcDDRM2i5flIOuh/Au0WTc05E0DfTWeO2+1fthuhWnloBcn+d9TsgskJaePbeJDA4Agh7VmJ6MrdIcbEeU9CJMc/hNw5g+iKhvKuiY+0V1XnZQWJmLegChunuqx8dGFhlW3iKdj7mGwk+rXPhBZbpdjMeJRM+GO2UZw2Uz9E8qvy3RTZFX+IpbTvCqWv+3g8RBmuoOGND+IMEu1ciryOYjZNeP3ggM93qf4IKuB6kSZ/ZrA6rr4RqYGxmL/q9VZpNy3ivf5Kcb2GecAoaYGhQfl+TpyyOMdqWT12w==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rr5NW4cgoI4kMR6zhKxXTt3R0ROnu47FexEBsmGuuzzvDGW6/2Hxz/jNADPJ1xNEg0+mVBKDIVw9Hfrjpsv1n+T6+Bt02aOqJd3bPxNzM5SkdYF5ocPM2G7F523OHB7Hd8SEtzs22QrbWS0dylcj/8PgCdBv8iSW0UX6EPgh2Yd3dC9mk4SiDBQRMtXl+j1H/Fkvl48tqcrWNVATP1De4JG/DfvIkw64VdSs9sk7taQHbEyGMVmoA6cuu732DoC4v4jeHYQR0X3bkb6QysBvQ7wmgoYTZ6LBz5WVlZFr3QI0yjw2pZfUPD2WVgZl7q+CLhbchfTD6F/jq6Q1hykLHQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8d386fea7ebd56e428a4db86563455ff9f2f9357" Description="" Url=""><as:assemblyIdentity name="GameLauncher.exe" version="1.0.0.0" publicKeyToken="7d533fd478b4aa72" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=5dplay, OU="", O="", C=CN</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LWVXRD9fMUCUucbNJBUhAw+koYs=</DigestValue></Reference></SignedInfo><SignatureValue>eNvrPpwqT26DyjNBQNSlAhd2nPIg0rmAj+ruyuCBHS+Cs57sn/bSSXSP8oWbeTwyTWg8aq1Jbf0j8eV5HBhiaIJnJBxMY9By0BMnDI1NhO7XzNt+bln7HOg9rH/RaO74FFsg+JfbeuPKPJUEDGmwf2azZP1TZf/sJmLLP3tQK6Yw/+2f/Tb5h1LhCkR0tKb6EhyFjSFcFI37Gz7jl27ECfIK+AIUeGzotFitLeSARzTLw4/WgBOjXAVFPnvpcNjJwnJqD2BlD7vmZbUlBYel4msJI8qDCzCVf37ki1sNqKQnIZgCZb/51KZnEtW72YsSR61mddYstdIzYuIYm4JT9g==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rr5NW4cgoI4kMR6zhKxXTt3R0ROnu47FexEBsmGuuzzvDGW6/2Hxz/jNADPJ1xNEg0+mVBKDIVw9Hfrjpsv1n+T6+Bt02aOqJd3bPxNzM5SkdYF5ocPM2G7F523OHB7Hd8SEtzs22QrbWS0dylcj/8PgCdBv8iSW0UX6EPgh2Yd3dC9mk4SiDBQRMtXl+j1H/Fkvl48tqcrWNVATP1De4JG/DfvIkw64VdSs9sk7taQHbEyGMVmoA6cuu732DoC4v4jeHYQR0X3bkb6QysBvQ7wmgoYTZ6LBz5WVlZFr3QI0yjw2pZfUPD2WVgZl7q+CLhbchfTD6F/jq6Q1hykLHQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDEzCCAfugAwIBAgIaNjc2MDcyNzA6MTVkMTdjZWUzMjE6LTdmZmYwDQYJKoZIhvcNAQEFBQAwNDELMAkGA1UEBhMCQ04xCTAHBgNVBAoTADEJMAcGA1UECxMAMQ8wDQYDVQQDEwY1ZHBsYXkwHhcNMTcwNzA1MTI1NTUyWhcNNDIwNzA2MTI1NTUyWjA0MQswCQYDVQQGEwJDTjEJMAcGA1UEChMAMQkwBwYDVQQLEwAxDzANBgNVBAMTBjVkcGxheTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK6+TVuHIKCOJDEes4SsV07d0dETp7uOxXsRAbJhrrs87wxluv9h8c/4zQAzydcTRINPplQSgyFcPR3646bL9Z/k+vgbdNmjqiXd2z8TczOUpHWBeaHDzNhuxedtzhwex3fEhLc7NtkK21ktHcpXI//D4AnQb/IkltFF+hD4IdmHd3QvZpOEogwUETLV5fo9R/xZL5ePLanK1jVQEz9Q3uCRvw37yJMOuFXUrPbJO7WkB2xMhjFZqAOnLru99g6AuL+I3h2EEdF925G+kMrAb0O8JoKGE2eiwc+VlZWRa90CNMo8NqWX1Dw9llYGZe6vgi4W3IX0w+hf46ukNYcpCx0CAwEAAaMXMBUwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcNAQEFBQADggEBADnYA7v1zk6+oas7ENEGk+22Bn3w5WOzrs00TlUmxTJFDRpg/+HyjdluTPeXO2OA3XiN2VT0eL+OfW3NueJzett+M2EV+fZn7RH+fEXsQSC7tnOrPzhL2IFE1jgvhjqzj3zOYyL1RLdJ1uWW6ZomUGoqwoTSDYq/twvRU+JrlnPjTY6yTR1GATsCQ1NQi+STrpSitcXSz+uWH9+Hp92Vc24zjmNE0XtQSSIHKhTfzvSKqZOjlmos+1/pcMoaLWqWnwuKG/Xcoz3XbAC5Wei+88gq1Q45h2dGADjoFE2Z9FmlFZJCrIdLM/9BiFt6X0pUX+VR0jWOX593rZNA9dzeaQ4=</X509Certificate></X509Data></KeyInfo><Object><as:Timestamp>MIIL0wYJKoZIhvcNAQcCoIILxDCCC8ACAQExCzAJBgUrDgMCGgUAMIIBEwYJKoZI
+hvcNAQcBoIIBBASCAQB42+s+nCpPboPKM0FA1KUCF3ac8iDSuYCP6u7K4IEdL4Kz
+nuyf9tJJdI/yhZt5PDJNaDxqrUlt/SPx5XkcGGJogmckHExj0HLQEycMjU2E7tfM
+235uWfsc6D2sf9Fo7vgUWyD4l9t648o8lQQMabB/ZrNk/VNl/+wmYss/e1ArpjD/
+7Z/9NvmHUuEKRHS0pvoSHIWNIVwUjfsbPuOXbsQJ8gr4AhR4bOi0WK0t5IBHNMvD
+j9aAE6NcBUU+e+lw2MnCcmoPYGUPu+ZltSUFh6XiawkjyoMLMJV/fuSLWw2opCch
+mAJlv/nUpmcS1bvZixJHrWZ11iy10jNi4hibglP2oIIImTCCA+4wggNXoAMCAQIC
+EH6T6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsxCzAJBgNVBAYTAlpB
+MRUwEwYDVQQIEwxXZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8w
+DQYDVQQKEwZUaGF3dGUxHTAbBgNVBAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9uMR8w
+HQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5nIENBMB4XDTEyMTIyMTAwMDAwMFoX
+DTIwMTIzMDIzNTk1OVowXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5bWFudGVj
+IENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1hbnRlYyBUaW1lIFN0YW1waW5nIFNl
+cnZpY2VzIENBIC0gRzIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCx
+rLNJVEuXHBIK2CV5kSJXKm/cuCbEQ3Nrwr8uUFr7FMJ2jkMBJUO0oeJF9Oi3e8N0
+zCLXtJQAAvdN7b+0t0Qka81fRTvRRM5DEnMXgotptCvLmR6schsmTXEfsTHd+1Fh
+AlOmqvVJLAV4RaUvic7nmef+jOJXPz3GktxK+Hsz5HkK+/B1iEGc/8UDUZmq12yf
+k2mHZSmDhcJgFMTIyTsU2sCB8B8NdN6SIqvK9/t0fCfm90obf6fDni2uiuqm5qon
+Fn1h95hxEbziUKFL5V365Q6nLJ+qZSDT2JboyHylTkhE/xniRAeSC9dohIBdanhk
+Rc1gRn5UwRN8xXnxycFxAgMBAAGjgfowgfcwHQYDVR0OBBYEFF+a9W5czMx0mtTd
+fe8/2+xMgC7dMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAYYWaHR0cDovL29j
+c3AudGhhd3RlLmNvbTASBgNVHRMBAf8ECDAGAQH/AgEAMD8GA1UdHwQ4MDYwNKAy
+oDCGLmh0dHA6Ly9jcmwudGhhd3RlLmNvbS9UaGF3dGVUaW1lc3RhbXBpbmdDQS5j
+cmwwEwYDVR0lBAwwCgYIKwYBBQUHAwgwDgYDVR0PAQH/BAQDAgEGMCgGA1UdEQQh
+MB+kHTAbMRkwFwYDVQQDExBUaW1lU3RhbXAtMjA0OC0xMA0GCSqGSIb3DQEBBQUA
+A4GBAAMJm495739ZMKrvaLX64wkdu0+CBl03X6ZSnxaN6hySCURu9W3rWHww6Plp
+jSNzCxJvR6muORH4KrGbsBrDjutZlgCtzgxNstAxpghcKnr84nodV0yoZRjpeUBi
+JZZux8c3aoMhCI5B6t3ZVz8dd0mHKhYGXqY4aiISo1EZg362MIIEozCCA4ugAwIB
+AgIQDs/0OMj+vzVuBNhqmBsaUDANBgkqhkiG9w0BAQUFADBeMQswCQYDVQQGEwJV
+UzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xMDAuBgNVBAMTJ1N5bWFu
+dGVjIFRpbWUgU3RhbXBpbmcgU2VydmljZXMgQ0EgLSBHMjAeFw0xMjEwMTgwMDAw
+MDBaFw0yMDEyMjkyMzU5NTlaMGIxCzAJBgNVBAYTAlVTMR0wGwYDVQQKExRTeW1h
+bnRlYyBDb3Jwb3JhdGlvbjE0MDIGA1UEAxMrU3ltYW50ZWMgVGltZSBTdGFtcGlu
+ZyBTZXJ2aWNlcyBTaWduZXIgLSBHNDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKJjCzlEuLsjp0RJuw7/ofBhClOTsJjbrSwPSsVu/4Y8U1UPFc4EPyv9
+qZaW2b5heQtbyUyGduXgQ0sile7CK0PBn9hotI5AT+6FOLkRxSPyZFjwFTJvTleh
+roikAtcqHs1L4d1j1ReJMluwXplaqJ0oUA4X7pbbYTtFUR3PElYLkkf8q672Zj1H
+rHBy55LnX80QucSDZJQZvSWA4ejSIqXQugJ6oXeTW2XD7hd0vEGGKtwITIySjJEt
+nndEH2jWqHR32w5bMotWizO92WPISZ06xcXqMwvS8aMb9Iu+2bNXizveBKd6IrIk
+ri7HcMW+ToMmCPsLvalPmQjhEChyqs0CAwEAAaOCAVcwggFTMAwGA1UdEwEB/wQC
+MAAwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwgwDgYDVR0PAQH/BAQDAgeAMHMGCCsG
+AQUFBwEBBGcwZTAqBggrBgEFBQcwAYYeaHR0cDovL3RzLW9jc3Aud3Muc3ltYW50
+ZWMuY29tMDcGCCsGAQUFBzAChitodHRwOi8vdHMtYWlhLndzLnN5bWFudGVjLmNv
+bS90c3MtY2EtZzIuY2VyMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly90cy1jcmwu
+d3Muc3ltYW50ZWMuY29tL3Rzcy1jYS1nMi5jcmwwKAYDVR0RBCEwH6QdMBsxGTAX
+BgNVBAMTEFRpbWVTdGFtcC0yMDQ4LTIwHQYDVR0OBBYEFEbGaaMOShQe1UzaUmMX
+P142vA3mMB8GA1UdIwQYMBaAFF+a9W5czMx0mtTdfe8/2+xMgC7dMA0GCSqGSIb3
+DQEBBQUAA4IBAQB4O7SRKgBM8I9iMDd4o4QnB28Yst4l3KDUlAOqhk4ln5pAAxzd
+zuN5yyFoBtq2MrRtv/QsJmMz5ElkbQ3mw2cO9wWkNWx8iRbG6bLfsundIMZxD82V
+dNy2XN69Nx9DeOZ4tc0oBCCjqvFLxIgpkQ6A0RH83Vx2bk9eDkVGQW4NsOo4mrE6
+2glxEPwcebSAe6xp9P2ctgwWK/F/Wwk9m1viFsoTgW0ALjgNqCmPLOGy9FqpAa8V
+nCwvSRvbIrvD/niUUcOGsYKIXfA9tFGheTMrLnu53CAJE3Hrahlbz+ilMFcsiUk/
+uc9/yb8+ImhjU5q9aXSsxR08f5Lgw7wc2AR1MYIB+DCCAfQCAQEwcjBeMQswCQYD
+VQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xMDAuBgNVBAMT
+J1N5bWFudGVjIFRpbWUgU3RhbXBpbmcgU2VydmljZXMgQ0EgLSBHMgIQDs/0OMj+
+vzVuBNhqmBsaUDAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEH
+ATAcBgkqhkiG9w0BCQUxDxcNMjAwNDIyMDczMzQyWjAjBgkqhkiG9w0BCQQxFgQU
+z3k38/h7banuJPF8f8DVAEr41H8wDQYJKoZIhvcNAQEBBQAEggEAQ9Z73FfW19mD
+gEN57IltP/UJYPmjLchxvWFkbHWdwU7951jNdwvnQeYMKpF6OUfFp0aVPcH67DFi
+z8snkuh+Pas1O2xNkjEcB3M9Wa7PQhwhspKfzjyFbTkz3XrxspBdMJapuLXYCXnx
+Zv8yVdnLhnyYC9BLGCcztm4is7e4SY7CcRRZnpskebho1YcAXL3TOGRtyu9OOk92
+asCIkLZjZmKkE0xlbk4HrDpqDuu89If1MSSXbxqKbY5Go7KQVvhs5S3QysC3sVxc
+hSXyODPnzq5/7/oBfDNRmQ6VSBcP9Fficrw+7Vl3XyMt7wlTSIN7drY7yUOc4JyA
+weugkEv37w==
+</as:Timestamp></Object></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

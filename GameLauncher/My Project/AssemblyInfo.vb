@@ -1,5 +1,4 @@
-﻿Imports System.Resources
-Imports System
+﻿Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -11,15 +10,15 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("GameLauncher")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyCompany("5DPLAY")>
 <Assembly: AssemblyProduct("GameLauncher")>
-<Assembly: AssemblyCopyright("Copyright © 2020 5DPLAY_Game_Studio")>
+<Assembly: AssemblyCopyright("Copyright ©  2020 5DPLAY_Game_Studio")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 '如果此项目向 COM 公开，则下列 GUID 用于 typelib 的 ID
-<Assembly: Guid("7a782fa3-0550-4ac3-8a3a-0418783417f8")>
+<Assembly: Guid("4f8469ac-a038-43d6-8b9d-a94ef90a01dc")>
 
 ' 程序集的版本信息由下列四个值组成: 
 '
@@ -34,4 +33,3 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
-<Assembly: NeutralResourcesLanguage("zh-CN")>
